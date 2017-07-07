@@ -9,7 +9,6 @@ get '/likelion/:name' do
 end
 
 get '/cube/:num' do
-    
    num = params[:num].to_i
    "(num**3).to_s"
     
